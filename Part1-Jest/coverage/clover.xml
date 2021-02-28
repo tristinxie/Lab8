@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1614494044941" clover="3.2.0">
-  <project timestamp="1614494044941" name="All files">
+<coverage generated="1614495328405" clover="3.2.0">
+  <project timestamp="1614495328405" name="All files">
     <metrics statements="44" coveredstatements="10" conditionals="10" coveredconditionals="6" methods="8" coveredmethods="1" elements="62" coveredelements="17" complexity="0" loc="44" ncloc="44" packages="1" files="1" classes="1"/>
     <file name="main.js" path="/mnt/c/Users/trist/Documents/github/Lab8/Part1-Jest/assets/scripts/main.js">
       <metrics statements="44" coveredstatements="10" conditionals="10" coveredconditionals="6" methods="8" coveredmethods="1"/>

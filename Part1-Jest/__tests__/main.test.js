@@ -8,12 +8,12 @@ describe('iconLevel set correctly', () => {
     })
     test('medium-high volume', () => {
         for(let i = 34; i <= 66; ++i){
-            expect(formatVolumeIconPath(55)).toMatch('./assets/media/icons/volume-level-2.svg')
+            expect(formatVolumeIconPath(i)).toMatch('./assets/media/icons/volume-level-2.svg')
         }
     })
     test('medium-low volume', () => {
         for(let i = 1; i <= 33; ++i){
-            expect(formatVolumeIconPath(1)).toMatch('./assets/media/icons/volume-level-1.svg')
+            expect(formatVolumeIconPath(i)).toMatch('./assets/media/icons/volume-level-1.svg')
         }
     })
     test('mute', () => {
